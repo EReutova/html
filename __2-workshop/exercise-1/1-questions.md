@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [f] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [f]
 
 ```html
 <ul>
@@ -14,50 +14,60 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [f] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+Screenreader is a software that converts the text displayed on a computer screen into speech.
+By accommodating screen readers, you’ll go a long way in making your website more accessible to millions of people with a visual disability.
+src="https://www.boia.org/blog/why-screen-readers-are-essential-for-website-accessibility"
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
-a) You want to create a webpage with the photos from your latest vacation
+a) You want to create a webpage with the photos from your latest vacation <img> <div> <button> <h1> <ul> <li>
 
-b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+b) You want to create a website that lists all the art gallery websites in your city and links to their website. <h1> <div> <a> <ul> <li> <button> <img>
 
-c) You want to sell designer hats. You need to receive orders from the user.
+c) You want to sell designer hats. You need to receive orders from the user. <h1> <div> <img> <button> <a> <form> <label> <input> <p> <select> <option>
 
-## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+## Q4 - Can a `button` be a child of a `button`? Explain your reasoning. 
+Can't. It better be inside <div> or <a>
 
-## Q5 - What is the most generic tag you can use?
+## Q5 - What is the most generic tag you can use? <div>
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` anchor - link
 
-b) `ol`
+b) `ol` ordered list
 
-c) `ul`
+c) `ul` unordered list
 
-d) `li`
+d) `li` list item
 
-e) `tr`
+e) `tr` table row
 
-f) `th`
+f) `th` table head
+ 
+g) `td` table data
 
-g) `td`
-
-## Q7 - Usually, `td` elements are children of what kind of elements?
+## Q7 - Usually, `td` elements are children of what kind of elements? 
+<tr> table row
 
 ## Q8 - What is the difference between td and th?
+<th> is placed in the first row, it is the header of the column in the table. <td> - the rest of the cells of the table
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+<h1>
 
 ## Q10 - In which situation can you use self closing tags?
+If your element does not have any children, you can open and close it immediately like <img> <input>
 
 ## Q11 - What is autofilling and why is it important?
+When a user starts to type in a field, the browser displays the options to fill in the field.
 
 ## Q12 - Which attributes are always present in an img element?
+src, alt
 
 ## Q13 - Which attribute is always present for an anchor tag?
+href
